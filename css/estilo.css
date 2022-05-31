@@ -1,0 +1,921 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  height: 100%;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(117, 169, 255, 1) 13%,
+    rgba(64, 101, 160, 1) 59%
+  );
+}
+.body-bio {
+  width: 100%;
+  height: 100%;
+  background: rgb(255, 233, 233);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 233, 233, 1) 0%,
+    rgba(233, 168, 182, 1) 48%,
+    rgba(187, 120, 119, 1) 85%
+  );
+}
+.body-musica {
+  width: 100%;
+  height: 100%;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(213, 174, 237, 1) 21%,
+    rgba(177, 128, 207, 1) 46%,
+    rgba(145, 71, 190, 1) 77%
+  );
+}
+.body-galeria {
+  width: 100%;
+  height: 100%;
+  background: rgb(63, 94, 251);
+  background: linear-gradient(
+    0deg,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+}
+.body-videos {
+  width: 100%;
+  height: 100%;
+  background: rgb(200, 120, 254);
+  background: linear-gradient(
+    0deg,
+    rgba(200, 120, 254, 1) 0%,
+    rgba(241, 108, 108, 1) 50%,
+    rgba(247, 198, 128, 1) 100%
+  );
+}
+.body-contact {
+  width: 100%;
+  height: 100%;
+  background: rgb(148, 187, 233);
+  background: linear-gradient(
+    180deg,
+    rgba(148, 187, 233, 1) 0%,
+    rgba(238, 174, 202, 1) 100%
+  );
+}
+header {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-content: center;
+}
+.header-bio {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-content: center;
+}
+.header-musica {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-content: center;
+}
+.header-galeria {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-content: center;
+}
+.header-videos {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-content: center;
+}
+.header-contact {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-content: center;
+}
+header h1 {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  line-height: 2.5;
+  font-family: "Bebas Neue", cursive;
+  font-size: 125px;
+  font-weight: lighter;
+  color: aliceblue;
+}
+header nav {
+  margin: 0;
+  padding: 0;
+}
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  list-style: none;
+}
+header nav ul li a {
+  margin: 0px;
+  padding: 0px 10px 0px 40px;
+  font-family: "Bebas Neue", cursive;
+  font-weight: lighter;
+  font-size: 35px;
+  line-height: 1.5;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
+.main-bio {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
+.main-musica {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
+.main-galeria {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
+.main-videos {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
+.main-contact {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
+main img {
+  margin: 80px 20px 30px 60px;
+  border-radius: 10px;
+}
+.main-bio-img {
+  margin: 80px 20px 30px 60px;
+  border-radius: 15px;
+}
+main div p {
+  margin: 0px 300px 30px 350px;
+  padding: 0px 50px 0px 50px;
+  text-align: justify;
+}
+.main-bio-div-p {
+  margin: 0px;
+  padding: 0px;
+  text-align: justify;
+}
+main p {
+  font-family: "Bebas Neue", cursive;
+  font-weight: lighter;
+  font-size: 30px;
+  line-height: 1.6;
+  color: aliceblue;
+}
+.main-bio-p {
+  font-family: "Bebas Neue", cursive;
+  font-weight: lighter;
+  font-size: 30px;
+  line-height: 1.6;
+  color: aliceblue;
+}
+main iframe {
+  margin: 20px 20px 30px 60px;
+  border-radius: 10px;
+}
+main h2 {
+  margin: 0px 10px 0px 80px;
+  font-family: "Bebas Neue", cursive;
+  font-weight: bold;
+  font-size: 70px;
+  color: #36e2ee;
+}
+main ul {
+  margin: 0px 10px 0px 80px;
+  font-family: "Bebas Neue", cursive;
+  list-style-type: none;
+  color: aliceblue;
+  font-size: 35px;
+}
+.main-musica-div {
+  margin: 40px 80px 0px 80px;
+}
+.contenedor {
+  width: 80%;
+  min-height: 600px;
+  margin: 10px 0px 10px 0px;
+  padding: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(13, 200px);
+  grid-template-areas:
+    "img1 img2 img3"
+    "img1 img2 img3"
+    "img1 img4 img5"
+    "img6 img4 img5"
+    "img6 img7 img7"
+    "img6 img7 img7"
+    "img8 img8 img9"
+    "img8 img8 img9"
+    "img10 img10 img11"
+    "img10 img10 img11"
+    "img12 img12 img11"
+    "img12 img12 img11"
+    "img12 img12 img11";
+  grid-gap: 10px;
+}
+.item {
+  border: 2px;
+  border-radius: 10px;
+}
+.item:hover {
+  transform: scale(1.1);
+  transition: all 0.7s;
+}
+.item1 {
+  grid-area: img1;
+  background-image: url(/imagenes/1.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.item2 {
+  grid-area: img2;
+  background-image: url(/imagenes/7.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.item3 {
+  grid-area: img3;
+  background-image: url(/imagenes/11.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.item4 {
+  grid-area: img4;
+  background-image: url(/imagenes/10.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.item5 {
+  grid-area: img5;
+  background-image: url(/imagenes/14.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.item6 {
+  grid-area: img6;
+  background-image: url(/imagenes/5.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.item7 {
+  grid-area: img7;
+  background-image: url(/imagenes/13.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.item8 {
+  grid-area: img8;
+  background-image: url(/imagenes/3.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.item9 {
+  grid-area: img9;
+  background-image: url(/imagenes/2.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.item10 {
+  grid-area: img10;
+  background-image: url(/imagenes/16.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.item11 {
+  grid-area: img11;
+  background-image: url(/imagenes/12.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.item12 {
+  grid-area: img12;
+  background-image: url(/imagenes/15.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.contenedor2 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+}
+.ifr {
+  border: 2px;
+  border-radius: 10px;
+}
+.ifr:hover {
+  transform: scale(1.1);
+  transition: all 0.7s;
+}
+.ifr1 {
+  margin: 20px 0px 0px 0px;
+}
+.ifr2 {
+  margin: 20px 0px 0px 0px;
+}
+.main-contacto-form{
+  margin: 80px 300px 50px 300px;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: lighter;
+  font-size: 25px;
+  text-align: center;
+  line-height: 1.6;
+  color: aliceblue;
+}
+footer {
+  margin: 0px;
+  padding: 0px 10px 0px 0px;
+  height: 200px;
+  background-image: url(/imagenes/layered-waves-haikei.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+footer nav {
+  margin: 0;
+  padding: 0;
+}
+footer nav ul li a {
+  margin: 0px;
+  padding: 0px 30px 0px 30px;
+  font-family: "Bebas Neue", cursive;
+  font-weight: lighter;
+  font-size: 35px;
+  line-height: 1.5;
+  list-style: none;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.footer-bio {
+  margin: 0px;
+  padding: 0px 10px 0px 0px;
+  height: 200px;
+  background-image: url(/imagenes/f2-900.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: flex-end;
+  list-style: none;
+  font-family: "Bebas Neue", cursive;
+  font-weight: lighter;
+  font-size: 30px;
+  line-height: 2;
+  color: aliceblue;
+}
+.footer-musica {
+  margin: 0px;
+  padding: 0px 10px 0px 0px;
+  height: 200px;
+  background-image: url(/imagenes/f3-900.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: flex-end;
+  list-style: none;
+  font-family: "Bebas Neue", cursive;
+  font-weight: lighter;
+  font-size: 30px;
+  line-height: 2;
+  color: aliceblue;
+}
+.footer-galeria {
+  margin: 0px;
+  padding: 0px 10px 0px 0px;
+  height: 200px;
+  background-image: url(/imagenes/f4-900.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: flex-end;
+  list-style: none;
+  font-family: "Bebas Neue", cursive;
+  font-weight: lighter;
+  font-size: 30px;
+  line-height: 2;
+  color: aliceblue;
+}
+
+.footer-videos {
+  margin: 0px;
+  padding: 0px 10px 0px 0px;
+  height: 200px;
+  background-image: url(/imagenes/f5-900.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: flex-end;
+  list-style: none;
+  font-family: "Bebas Neue", cursive;
+  font-weight: lighter;
+  font-size: 30px;
+  line-height: 2;
+  color: aliceblue;
+}
+.footer-contact {
+  margin: 0px;
+  padding: 0px 10px 0px 0px;
+  height: 200px;
+  background-image: url(/imagenes/f6-900.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: flex-end;
+  list-style: none;
+  font-family: "Bebas Neue", cursive;
+  font-weight: lighter;
+  font-size: 30px;
+  line-height: 2;
+  color: aliceblue;
+}
+@media only screen and (max-width: 480px) {
+  body {
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(117, 169, 255, 1) 13%,
+      rgba(64, 101, 160, 1) 59%
+    );
+  }
+  header {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+  }
+  main img {
+    width: 360px;
+    height: 280px;
+    margin: 80px 20px 30px 60px;
+    border-radius: 10px;
+  }
+  main div p {
+    margin: 0px 30px 0px 50px;
+    padding: 0px 50px 0px 50px;
+    text-align: center;
+  }
+  main p {
+    font-family: "Bebas Neue", cursive;
+    font-weight: lighter;
+    font-size: 20px;
+    line-height: 1.6;
+    color: aliceblue;
+  }
+  main iframe {
+    width: 360px;
+    height: 280px;
+    margin: 20px 20px 30px 60px;
+    border-radius: 10px;
+  }
+  footer {
+    margin: 0px;
+    padding: 0px 10px 0px 0px;
+    height: 200px;
+    width: 480px;
+    background-image: url(/imagenes/f1-480.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .body-bio {
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(210, 178, 177, 1) 11%,
+      rgba(203, 156, 155, 1) 54%,
+      rgba(187, 120, 119, 1) 94%
+    );
+  }
+  .header-bio {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+  }
+  .main-bio {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .main-bio-img {
+    width: 400px;
+    height: 260px;
+    margin: 80px 20px 30px 60px;
+    border-radius: 15px;
+  }
+  .main-bio-div-p {
+    margin: 0px;
+    padding: 0px;
+    text-align: justify;
+  }
+  .main-bio-p {
+    font-family: "Bebas Neue", cursive;
+    font-weight: lighter;
+    font-size: 30px;
+    line-height: 1.6;
+    color: aliceblue;
+  }
+  .footer-bio {
+    margin: 0px;
+    padding: 0px 10px 0px 0px;
+    height: 200px;
+    width: 480px;
+    background-image: url(/imagenes/f2-480.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .body-musica {
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(213, 174, 237, 1) 21%,
+      rgba(177, 128, 207, 1) 46%,
+      rgba(145, 71, 190, 1) 77%
+    );
+  }
+
+  .header-musica {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+  }
+  .main-musica {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .main-musica-div {
+    margin: 40px 10px 0px 0px;
+  }
+  .footer-musica {
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+    height: 200px;
+    width: 480px;
+    background-image: url(/imagenes/f3-480.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .body-galeria {
+    width: 100%;
+    height: 100%;
+    background: rgb(63, 94, 251);
+    background: linear-gradient(
+      0deg,
+      rgba(63, 94, 251, 1) 0%,
+      rgba(252, 70, 107, 1) 100%
+    );
+  }
+
+  .header-galeria {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+  }
+  header nav ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Bebas Neue", cursive;
+    font-weight: lighter;
+    font-size: 35px;
+    color: aliceblue;
+  }
+
+  header nav ul a {
+    margin: 0px;
+    padding: 0px 10px 0px 10px;
+  }
+  .contenedor {
+    width: 80%;
+    min-height: 600px;
+    margin: 10px 0px 10px 0px;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(25, 200px);
+    grid-template-areas:
+      "img1 img1 img1"
+      "img1 img1 img1"
+      "img1 img1 img1"
+      "img2 img2 img2"
+      "img2 img2 img2"
+      "img3 img3 img3"
+      "img3 img3 img3"
+      "img4 img4 img4"
+      "img4 img4 img4"
+      "img5 img5 img5"
+      "img5 img5 img5"
+      "img6 img6 img6"
+      "img6 img6 img6"
+      "img6 img6 img6"
+      "img7 img7 img7"
+      "img8 img8 img8"
+      "img8 img8 img8"
+      "img9 img9 img9"
+      "img9 img9 img9"
+      "img10 img10 img10"
+      "img11 img11 img11"
+      "img11 img11 img11"
+      "img11 img11 img11"
+      "img11 img11 img11"
+      "img12 img12 img12";
+    grid-gap: 10px;
+  }
+  .item {
+    border: 2px;
+    border-radius: 10px;
+  }
+  .item:hover {
+    transform: scale(1.1);
+    transition: all 0.7s;
+  }
+  .item1 {
+    grid-area: img1;
+    background-image: url(/imagenes/1.jpeg);
+    background-position: center;
+    background-size: cover;
+  }
+  .item2 {
+    grid-area: img2;
+    background-image: url(/imagenes/7.jpeg);
+    background-position: center;
+    background-size: cover;
+  }
+  .item3 {
+    grid-area: img3;
+    background-image: url(/imagenes/11.jpeg);
+    background-position: center;
+    background-size: cover;
+  }
+  .item4 {
+    grid-area: img4;
+    background-image: url(/imagenes/10.jpeg);
+    background-position: center;
+    background-size: cover;
+  }
+  .item5 {
+    grid-area: img5;
+    background-image: url(/imagenes/14.jpeg);
+    background-position: center;
+    background-size: cover;
+  }
+  .item6 {
+    grid-area: img6;
+    background-image: url(/imagenes/5.jpeg);
+    background-position: center;
+    background-size: cover;
+  }
+  .item7 {
+    grid-area: img7;
+    background-image: url(/imagenes/13.jpeg);
+    background-position: center;
+    background-size: cover;
+  }
+  .item8 {
+    grid-area: img8;
+    background-image: url(/imagenes/3.jpeg);
+    background-position: center;
+    background-size: cover;
+  }
+  .item9 {
+    grid-area: img9;
+    background-image: url(/imagenes/2.jpeg);
+    background-position: center;
+    background-size: cover;
+  }
+  .item10 {
+    grid-area: img10;
+    background-image: url(/imagenes/16.jpeg);
+    background-position: center;
+    background-size: cover;
+  }
+  .item11 {
+    grid-area: img11;
+    background-image: url(/imagenes/12.jpeg);
+    background-position: center;
+    background-size: cover;
+  }
+  .item12 {
+    grid-area: img12;
+    background-image: url(/imagenes/15.jpeg);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .footer-galeria {
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+    height: 200px;
+    width: 480px;
+    background-image: url(/imagenes/f4-480.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .body-videos {
+    width: 100%;
+    height: 100%;
+    background: rgb(200, 120, 254);
+    background: linear-gradient(
+      0deg,
+      rgba(200, 120, 254, 1) 0%,
+      rgba(241, 108, 108, 1) 50%,
+      rgba(247, 198, 128, 1) 100%
+    );
+  }
+
+  .header-videos {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+  }
+  .main-videos {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .contenedor2 {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-content: center;
+  }
+  .ifr {
+    border: 2px;
+    border-radius: 10px;
+  }
+  .ifr:hover {
+    transform: scale(1.1);
+    transition: all 0.7s;
+  }
+  .ifr1 {
+    margin: 30px 0px 0px 0px;
+  }
+  .ifr2 {
+    margin: 0px;
+  }
+  footer {
+    background-image: none;
+  }
+  .footer-videos {
+    margin: 0px;
+    padding: 0px 10px 0px 0px;
+    height: 200px;
+    width: 480px;
+    background-image: url(/imagenes/f5-480.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .body-contact {
+    width: 100%;
+    height: 100%;
+    background: rgb(148, 187, 233);
+    background: linear-gradient(
+      180deg,
+      rgba(148, 187, 233, 1) 0%,
+      rgba(238, 174, 202, 1) 100%
+    );
+  }
+  .header-contact {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+  }
+   
+  .main-contact {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+  }
+  footer {
+    margin: 0px;
+    padding: 0px 10px 0px 0px;
+    height: 200px;
+    width: 480px;
+    background-image: url(/imagenes/f6-480.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  }
+}

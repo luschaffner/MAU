@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/estilo.css">
+    <title>MAU</title>
+</head>
+
+<body class="body-contact">
+    <header class="header-contact">
+        <h1>CONTACTO</h1>
+        <nav>
+            <ul>
+                <li><a href="/paginas/bio.html">BIO</a></li>
+                <li><a href="/paginas/música.html">MÚSICA</a></li>
+                <li><a href="/paginas/videos.html">VIDEO</a></li>
+                <li><a href="/paginas/galeria.html">GALERIA</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-contact">
+        <form action="enviar.php" method="post" enctype="text/plain" class="main-contacto-form">
+            <label for="name">Nombre</label>
+            <input type="text" name="name" required> <br><br>
+            <label for="apellido">Apellido</label>
+            <input type="text" name="apellido" required> <br><br>
+            <label for="date">Edad</label>
+            <input type="date"> <br><br>
+            <label for="">Tel</label>
+            <input type="number" placeholder="escribe tu telf"> <br><br>
+            <label for="">Mail</label>
+            <input type="mail"> <br><br>
+            <label for="">Comentarios :</label> <br>
+            <textarea name="" id="" cols="30" rows="10" placeholder="escribe tu comentario"></textarea> <br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+            <input type="button" value="Reenviar">
+    </main>
+    <footer class="footer-contact">
+        <nav>
+            <ul>
+                <li><a href="/index.html">HOME</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+
+</body>
+
+</html>
