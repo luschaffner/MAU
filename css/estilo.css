@@ -371,6 +371,9 @@ main ul {
   line-height: 1.6;
   color: aliceblue;
 }
+label{
+  color: aliceblue;
+}
 footer {
   margin: 0px;
   padding: 0px 10px 0px 0px;
