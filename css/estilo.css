@@ -516,6 +516,7 @@ footer nav ul li a {
     justify-content: center;
     align-content: center;
   }
+  
   main {
     display: flex;
     flex-direction: column;
