@@ -272,73 +272,73 @@ main ul {
 }
 .item1 {
   grid-area: img1;
-  background-image: url(/imagenes/1.jpeg);
+  background-image: url(../imagenes/1.jpeg);
   background-position: center;
   background-size: cover;
 }
 .item2 {
   grid-area: img2;
-  background-image: url(/imagenes/7.jpeg);
+  background-image: url(../imagenes/7.jpeg);
   background-position: center;
   background-size: cover;
 }
 .item3 {
   grid-area: img3;
-  background-image: url(/imagenes/11.jpeg);
+  background-image: url(../imagenes/11.jpeg);
   background-position: center;
   background-size: cover;
 }
 .item4 {
   grid-area: img4;
-  background-image: url(/imagenes/10.jpeg);
+  background-image: url(../imagenes/10.jpeg);
   background-position: center;
   background-size: cover;
 }
 .item5 {
   grid-area: img5;
-  background-image: url(/imagenes/14.jpeg);
+  background-image: url(../imagenes/14.jpeg);
   background-position: center;
   background-size: cover;
 }
 .item6 {
   grid-area: img6;
-  background-image: url(/imagenes/5.jpeg);
+  background-image: url(../imagenes/5.jpeg);
   background-position: center;
   background-size: cover;
 }
 .item7 {
   grid-area: img7;
-  background-image: url(/imagenes/13.jpeg);
+  background-image: url(../imagenes/13.jpeg);
   background-position: center;
   background-size: cover;
 }
 .item8 {
   grid-area: img8;
-  background-image: url(/imagenes/3.jpeg);
+  background-image: url(../imagenes/3.jpeg);
   background-position: center;
   background-size: cover;
 }
 .item9 {
   grid-area: img9;
-  background-image: url(/imagenes/2.jpeg);
+  background-image: url(../imagenes/2.jpeg);
   background-position: center;
   background-size: cover;
 }
 .item10 {
   grid-area: img10;
-  background-image: url(/imagenes/16.jpeg);
+  background-image: url(../imagenes/16.jpeg);
   background-position: center;
   background-size: cover;
 }
 .item11 {
   grid-area: img11;
-  background-image: url(/imagenes/12.jpeg);
+  background-image: url(../imagenes/12.jpeg);
   background-position: center;
   background-size: cover;
 }
 .item12 {
   grid-area: img12;
-  background-image: url(/imagenes/15.jpeg);
+  background-image: url(../imagenes/15.jpeg);
   background-position: center;
   background-size: cover;
 }
@@ -378,7 +378,7 @@ footer {
   margin: 0px;
   padding: 0px 10px 0px 0px;
   height: 200px;
-  background-image: url(/imagenes/layered-waves-haikei.svg);
+  background-image: url(../imagenes/layered-waves-haikei.svg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -406,7 +406,7 @@ footer nav ul li a {
   margin: 0px;
   padding: 0px 10px 0px 0px;
   height: 200px;
-  background-image: url(/imagenes/f2-900.svg);
+  background-image: url(../imagenes/f2-900.svg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -425,7 +425,7 @@ footer nav ul li a {
   margin: 0px;
   padding: 0px 10px 0px 0px;
   height: 200px;
-  background-image: url(/imagenes/f3-900.svg);
+  background-image: url(../imagenes/f3-900.svg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -444,7 +444,7 @@ footer nav ul li a {
   margin: 0px;
   padding: 0px 10px 0px 0px;
   height: 200px;
-  background-image: url(/imagenes/f4-900.svg);
+  background-image: url(../imagenes/f4-900.svg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -464,7 +464,7 @@ footer nav ul li a {
   margin: 0px;
   padding: 0px 10px 0px 0px;
   height: 200px;
-  background-image: url(/imagenes/f5-900.svg);
+  background-image: url(../imagenes/f5-900.svg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -483,7 +483,7 @@ footer nav ul li a {
   margin: 0px;
   padding: 0px 10px 0px 0px;
   height: 200px;
-  background-image: url(/imagenes/f6-900.svg);
+  background-image: url(../imagenes/f6-900.svg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -553,7 +553,7 @@ footer nav ul li a {
     padding: 0px 10px 0px 0px;
     height: 200px;
     width: 480px;
-    background-image: url(/imagenes/f1-480.svg);
+    background-image: url(../imagenes/f1-480.svg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -610,7 +610,7 @@ footer nav ul li a {
     padding: 0px 10px 0px 0px;
     height: 200px;
     width: 480px;
-    background-image: url(/imagenes/f2-480.svg);
+    background-image: url(../imagenes/f2-480.svg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -653,7 +653,7 @@ footer nav ul li a {
     padding: 0px 0px 0px 0px;
     height: 200px;
     width: 480px;
-    background-image: url(/imagenes/f3-480.svg);
+    background-image: url(../imagenes/f3-480.svg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -741,73 +741,73 @@ footer nav ul li a {
   }
   .item1 {
     grid-area: img1;
-    background-image: url(/imagenes/1.jpeg);
+    background-image: url(../imagenes/1.jpeg);
     background-position: center;
     background-size: cover;
   }
   .item2 {
     grid-area: img2;
-    background-image: url(/imagenes/7.jpeg);
+    background-image: url(../imagenes/7.jpeg);
     background-position: center;
     background-size: cover;
   }
   .item3 {
     grid-area: img3;
-    background-image: url(/imagenes/11.jpeg);
+    background-image: url(../imagenes/11.jpeg);
     background-position: center;
     background-size: cover;
   }
   .item4 {
     grid-area: img4;
-    background-image: url(/imagenes/10.jpeg);
+    background-image: url(../imagenes/10.jpeg);
     background-position: center;
     background-size: cover;
   }
   .item5 {
     grid-area: img5;
-    background-image: url(/imagenes/14.jpeg);
+    background-image: url(../imagenes/14.jpeg);
     background-position: center;
     background-size: cover;
   }
   .item6 {
     grid-area: img6;
-    background-image: url(/imagenes/5.jpeg);
+    background-image: url(../imagenes/5.jpeg);
     background-position: center;
     background-size: cover;
   }
   .item7 {
     grid-area: img7;
-    background-image: url(/imagenes/13.jpeg);
+    background-image: url(../imagenes/13.jpeg);
     background-position: center;
     background-size: cover;
   }
   .item8 {
     grid-area: img8;
-    background-image: url(/imagenes/3.jpeg);
+    background-image: url(../imagenes/3.jpeg);
     background-position: center;
     background-size: cover;
   }
   .item9 {
     grid-area: img9;
-    background-image: url(/imagenes/2.jpeg);
+    background-image: url(../imagenes/2.jpeg);
     background-position: center;
     background-size: cover;
   }
   .item10 {
     grid-area: img10;
-    background-image: url(/imagenes/16.jpeg);
+    background-image: url(../imagenes/16.jpeg);
     background-position: center;
     background-size: cover;
   }
   .item11 {
     grid-area: img11;
-    background-image: url(/imagenes/12.jpeg);
+    background-image: url(../imagenes/12.jpeg);
     background-position: center;
     background-size: cover;
   }
   .item12 {
     grid-area: img12;
-    background-image: url(/imagenes/15.jpeg);
+    background-image: url(../imagenes/15.jpeg);
     background-position: center;
     background-size: cover;
   }
@@ -817,7 +817,7 @@ footer nav ul li a {
     padding: 0px 0px 0px 0px;
     height: 200px;
     width: 480px;
-    background-image: url(/imagenes/f4-480.svg);
+    background-image: url(../imagenes/f4-480.svg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -878,7 +878,7 @@ footer nav ul li a {
     padding: 0px 10px 0px 0px;
     height: 200px;
     width: 480px;
-    background-image: url(/imagenes/f5-480.svg);
+    background-image: url(../imagenes/f5-480.svg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -915,7 +915,7 @@ footer nav ul li a {
     padding: 0px 10px 0px 0px;
     height: 200px;
     width: 480px;
-    background-image: url(/imagenes/f6-480.svg);
+    background-image: url(../imagenes/f6-480.svg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
