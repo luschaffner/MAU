@@ -190,7 +190,10 @@ main img {
   border-radius: 10px;
 }
 .main-bio-img {
-  margin: 80px 20px 30px 60px;
+  margin: 30px 0px 30px 325px;
+  padding: 0px;
+  width: 660px;
+  height: 460px;
   border-radius: 15px;
 }
 main div p {
@@ -198,7 +201,7 @@ main div p {
   padding: 0px 50px 0px 50px;
   text-align: justify;
 }
-.main-bio-div-p {
+.main-bio-div {
   margin: 0px;
   padding: 0px;
   text-align: justify;
@@ -503,12 +506,7 @@ footer nav ul li a {
     width: 100%;
     height: 100%;
     background: rgb(255, 255, 255);
-    background: linear-gradient(
-      0deg,
-      rgba(255, 255, 255, 1) 0%,
-      rgba(117, 169, 255, 1) 13%,
-      rgba(64, 101, 160, 1) 59%
-    );
+    background: linear-gradient(0deg,rgba(255, 255, 255, 1) 0%,rgba(117, 169, 255, 1) 13%,rgba(64, 101, 160, 1) 59%);
   }
   header {
     display: flex;
@@ -565,13 +563,7 @@ footer nav ul li a {
     width: 100%;
     height: 100%;
     background: rgb(255, 255, 255);
-    background: linear-gradient(
-      0deg,
-      rgba(255, 255, 255, 1) 0%,
-      rgba(210, 178, 177, 1) 11%,
-      rgba(203, 156, 155, 1) 54%,
-      rgba(187, 120, 119, 1) 94%
-    );
+    background: linear-gradient(0deg,rgba(255, 255, 255, 1) 0%,rgba(210, 178, 177, 1) 11%,rgba(203, 156, 155, 1) 54%,rgba(187, 120, 119, 1) 94%);
   }
   .header-bio {
     display: flex;
@@ -622,13 +614,7 @@ footer nav ul li a {
     width: 100%;
     height: 100%;
     background: rgb(255, 255, 255);
-    background: linear-gradient(
-      0deg,
-      rgba(255, 255, 255, 1) 0%,
-      rgba(213, 174, 237, 1) 21%,
-      rgba(177, 128, 207, 1) 46%,
-      rgba(145, 71, 190, 1) 77%
-    );
+    background: linear-gradient(0deg,rgba(255, 255, 255, 1) 0%,rgba(213, 174, 237, 1) 21%,rgba(177, 128, 207, 1) 46%,rgba(145, 71, 190, 1) 77%);
   }
 
   .header-musica {
@@ -665,11 +651,7 @@ footer nav ul li a {
     width: 100%;
     height: 100%;
     background: rgb(63, 94, 251);
-    background: linear-gradient(
-      0deg,
-      rgba(63, 94, 251, 1) 0%,
-      rgba(252, 70, 107, 1) 100%
-    );
+    background: linear-gradient(0deg,rgba(63, 94, 251, 1) 0%,rgba(252, 70, 107, 1) 100%);
   }
 
   .header-galeria {
@@ -829,12 +811,7 @@ footer nav ul li a {
     width: 100%;
     height: 100%;
     background: rgb(200, 120, 254);
-    background: linear-gradient(
-      0deg,
-      rgba(200, 120, 254, 1) 0%,
-      rgba(241, 108, 108, 1) 50%,
-      rgba(247, 198, 128, 1) 100%
-    );
+    background: linear-gradient(0deg,rgba(200, 120, 254, 1) 0%,rgba(241, 108, 108, 1) 50%,rgba(247, 198, 128, 1) 100%);
   }
 
   .header-videos {
@@ -890,11 +867,7 @@ footer nav ul li a {
     width: 100%;
     height: 100%;
     background: rgb(148, 187, 233);
-    background: linear-gradient(
-      180deg,
-      rgba(148, 187, 233, 1) 0%,
-      rgba(238, 174, 202, 1) 100%
-    );
+    background: linear-gradient(180deg,rgba(148, 187, 233, 1) 0%,rgba(238, 174, 202, 1) 100%);
   }
   .header-contact {
     display: flex;
@@ -902,7 +875,6 @@ footer nav ul li a {
     justify-content: center;
     align-content: center;
   }
-   
   .main-contact {
     display: flex;
     flex-direction: column;
